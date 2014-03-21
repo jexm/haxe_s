@@ -10,3 +10,6 @@ NEKOVM:
   DirectoryIndex index.n
 #END NEKO
 
+//解决haxe - mysql 入库中文的问题
+var sql = "SET NAMES 'utf8';";  
+cnx.request(sql);
