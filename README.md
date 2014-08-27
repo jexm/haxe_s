@@ -13,3 +13,8 @@ NEKOVM:
 //解决haxe - mysql 入库中文的问题
 var sql = "SET NAMES 'utf8';";  
 cnx.request(sql);
+
+SomeCode：
+var _box2:Box = cast(e.currentTarget);
+var _target = Type.getClassFields(_box)[20];
+		
